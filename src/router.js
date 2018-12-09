@@ -1,15 +1,16 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from './views/Home.vue';
 
 Vue.use(Router);
+
+const JamDindingView = () => import(/* webpackChunkName: "jam-dinding-view" */'@/views/JamDinding.vue');
 
 export default new Router({
   routes: [
     {
       path: '/',
       name: 'home',
-      component: Home,
+      component: JamDindingView,
     },
     {
       path: '/about',

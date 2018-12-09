@@ -9,7 +9,7 @@ import 'bootstrap/dist/js/bootstrap.min';
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import store from './store';
+import store from './storeservices';
 
 window.jQuery = jQuery;
 window.$ = jQuery;
