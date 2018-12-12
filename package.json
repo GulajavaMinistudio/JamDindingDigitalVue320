@@ -14,7 +14,7 @@
     "jquery": "^3.3.1",
     "moment": "^2.22.2",
     "popper.js": "^1.14.6",
-    "vue": "^2.5.20",
+    "vue": "^2.5.21",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
@@ -34,6 +34,6 @@
     "exports-loader": "^0.7.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.0.1",
-    "vue-template-compiler": "^2.5.20"
+    "vue-template-compiler": "^2.5.21"
   }
 }
