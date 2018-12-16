@@ -1,0 +1,25 @@
+image: node:10.14.2-alpine
+
+cache: 
+  paths:
+    - node_modules/
+
+before_script: 
+  - apt-get update -qy
+  - apt-get -qq upgrade
+  - npm install -g @vue/cli
+
+stages:
+  - test
+  - production
+
+test_build:
+  stage: test
+  script: 
+    - npm install
+    - npm run build
+
+artifacts:
+  paths: 
+   - dist
+  
