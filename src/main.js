@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import jQuery from 'jquery/dist/jquery.slim.min';
 import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min';
+import 'animate.css/animate.min.css';
 
 import Vue from 'vue';
 import App from './App.vue';

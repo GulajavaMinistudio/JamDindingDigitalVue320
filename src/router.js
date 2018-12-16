@@ -14,7 +14,7 @@ const TentangAplikasiView = () => import(/* webpackChunkName: "about" */ '@/view
 
 export default new Router({
   routes: [{
-    path: '/',
+    path: '/jam',
     name: 'home',
     component: JamDindingView,
   },
@@ -25,7 +25,7 @@ export default new Router({
   },
   {
     path: '*',
-    redirect: '/',
+    redirect: '/jam',
   },
   ],
 });
