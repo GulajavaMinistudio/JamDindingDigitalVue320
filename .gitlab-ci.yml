@@ -18,8 +18,7 @@ test_build:
   script: 
     - npm install
     - npm run build
-
-artifacts:
-  paths:
-   - dist
+  artifacts:
+    paths:
+    - dist
   
