@@ -13,19 +13,20 @@ const JamDindingView = () => import(/* webpackChunkName: "jam-dinding-view" */
 const TentangAplikasiView = () => import(/* webpackChunkName: "about" */ '@/views/About.vue');
 
 export default new Router({
-  routes: [{
-    path: '/jam',
-    name: 'home',
-    component: JamDindingView,
-  },
-  {
-    path: '/about',
-    name: 'about',
-    component: TentangAplikasiView,
-  },
-  {
-    path: '*',
-    redirect: '/jam',
-  },
+  routes: [
+    {
+      path: '/jam',
+      name: 'home',
+      component: JamDindingView,
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: TentangAplikasiView,
+    },
+    {
+      path: '*',
+      redirect: '/jam',
+    },
   ],
 });
